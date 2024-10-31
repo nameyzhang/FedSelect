@@ -1,4 +1,4 @@
-# nohup bash run_cifar10_iid1.sh &
+# nohup bash run.sh &
 
 algorithm=(FedSelect)
 
