@@ -27,7 +27,7 @@ seed=(1 2 3 4 5)
 
 
 for (( j = 0; j < ${#algorithm[@]}; j++ )); do
-    for (( i = 0; i<${#seed[@]}; i++ ))     # 遍历不同的seed
+    for (( i = 0; i<${#seed[@]}; i++ ))     
         do
             python -u main.py --algorithm "${algorithm[j]}"\
             --model $model \
