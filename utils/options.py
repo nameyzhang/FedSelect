@@ -40,7 +40,7 @@ def args_parser():
                         help='mini-batch size (default: 100)')
     parser.add_argument('--lr', type=float, default=1e-2)
     parser.add_argument('--momentum', type=float, default=0.9)
-    parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--seed', type=int, default=18)
 
 
     parser.add_argument('--target_accuracy', type=int, default=94, help='mnist:94.0; cifar-10: 50.0')
