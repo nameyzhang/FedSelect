@@ -134,7 +134,6 @@ def flip2_corruption(corruption_ratio, num_classes):
 
 
 
-# 没用到
 def load_client_data(dataset_name, client_num, batch_size):
     # Build data
     data_train, data_val, data_test, num_classes = build_dataset(dataset_name)
@@ -272,7 +271,6 @@ class CustomDataset(Dataset):
         return data, target, idx
 
 def create_dataloader(dataset, indices, batch_size):
-    # 根据索引创建子集，并构建 DataLoader
     subset = Subset(dataset, indices)
     dataloader = DataLoader(subset, batch_size=batch_size, shuffle=False)
     return dataloader
