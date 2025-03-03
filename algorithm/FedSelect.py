@@ -277,7 +277,7 @@ def FedSelect(args, logger):
 
 
     end_time = time.time()
-    computation_time = end_time - start_time  # 记录总的训练时间
+    computation_time = end_time - start_time 
 
 
 
