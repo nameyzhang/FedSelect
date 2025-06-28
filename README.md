@@ -1,4 +1,4 @@
-[KDD 2025] Proxy-Validated Importance-Aware Federated Sample Selection with Meta Learning 
+# Proxy-Validated Importance-Aware Federated Sample Selection with Meta Learning 
 
 # Abstract
 
