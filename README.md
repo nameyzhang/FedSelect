@@ -15,7 +15,7 @@ nohup bash run.sh &
 
 
 # Citation
-If you find our paper or this code useful for your research, please considering cite us!
+If you find our paper or this code useful for your research, please consider citing the corresponding paper:
 
 ```
 @inproceedings{zhang2025proxy,
