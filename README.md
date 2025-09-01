@@ -17,6 +17,7 @@ nohup bash run.sh &
 # Citation
 If you find our paper or this code useful for your research, please considering cite us!
 
+```python
 @inproceedings{zhang2025proxy,
   title={Proxy-Validated Importance-Aware Federated Sample Selection with Meta Learning},
   author={Zhang, Yan and Miao, Xiaoye and Li, Bin and Wu, Yangyang and Shang, Yongheng},
@@ -24,3 +25,4 @@ If you find our paper or this code useful for your research, please considering 
   pages={3855--3866},
   year={2025}
 }
+```
